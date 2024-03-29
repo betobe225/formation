@@ -1,0 +1,109 @@
+body {
+  background-color: red;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  transition: 3s ease;
+
+}
+
+:root{
+  --primaryColor:(26,93%,50%);
+  --hoverColor:(26,93%,50%);
+  --whiteColor:(26,93%,50%);
+  --blackColor:(26,93%,50%);
+  --textColor:(26,93%,50%);
+  --whiteColor:(26,93%,50%);
+  --greyBg:(0,0%,96%,);
+  --greyText:(0,0%,96%,);
+  --inputColor:(26,93%,50%);
+  --boxShadow: (0 2px 8px 2px rgba(0,0,0,0.))
+;}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.section{
+  padding: 4rem 0 2rem;
+}
+
+.container{
+padding-left : 1.rem ;
+padding-right: 1.5rem;
+}
+
+.icon{
+  font-size: 2rem;
+}
+
+.flex{
+  display: flex;
+  align-items:center;
+}
+
+.grid{
+ display: grid;
+ align-items:center; 
+}
+.btn{
+  padding: 4rem 1.5rem;
+  background: var(--primary-color);
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.btn a{
+  color: var(--whiteColor);
+  font-weight: 500;
+}
+
+.btn:hover{
+  color: var(--whiteColor)
+}
+
+.secIntro{
+  max-width: 70%;
+  line-height: 1.5rem;
+  margin: 0 auto 2rem;
+}
+
+.secIntro .SecTitle {
+  color: var(--blackColor);
+  line-height: 1.5rem;
+  padding-bottom: 5rem;
+}
+
+.secIntro p{
+  font-size: 13px;
+  color: var(--textColor);
+  font-weight: 500;
+}
+
+img, video{
+  font-size: 100%;
+}
+
+.home-container {
+  background-image: url('./Assets/about.png'); /* Remplacez par le chemin de votre image de fond */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Cette propriété permet de maintenir l'image fixe lors du défilement */
+  height: 1000px; /* 100vh signifie 100% de la hauteur de la fenêtre */
+  width: 100%;
+  padding: 100px; 
+  margin: 100px;/* Pour s'assurer que l'image de fond couvre toute la largeur de la page */
+  /* Ajoutez d'autres styles au besoin */
+}
+
